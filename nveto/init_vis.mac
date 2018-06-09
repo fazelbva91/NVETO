@@ -1,0 +1,7 @@
+#Macro for the initialization in interactive mode
+
+#Initialize kernel
+/run/initialize
+
+#Visualization setting
+/control/execute vis.mac

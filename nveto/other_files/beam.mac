@@ -1,0 +1,29 @@
+
+#source type
+#point-source
+/gps/pos/type Point 
+						
+#circular source
+#/gps/pos/type Plane				
+#/gps/pos/shape Circle
+#/gps/pos/radius 2. mm		
+
+#position
+/gps/pos/centre 0. 0. -20. cm	    
+
+#direction
+#parallel beam
+/gps/direction 0 0 1  	
+			
+#divergent beam
+#/gps/ang/type iso
+#/gps/ang/maxtheta 0.24 rad
+#/gps/ang/rot1 -1 0 0
+
+#particle
+/gps/particle neutron
+
+#energy       
+/gps/ene/type Mono					
+/gps/ene/mono 2. MeV      
+
